@@ -1,10 +1,5 @@
----
 kind: pipeline
 name: drone
-
-workspace:
-  base: /app
-  path: git/drone
 
 steps:
   - name: build
